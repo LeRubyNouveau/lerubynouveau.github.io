@@ -1,9 +1,11 @@
 # Enregistrement
 
-Vous allez participer à l'enregistrement d'un épisode de Le Ruby Nouveau : bienvenue !
-
+_Vous allez participer à l'enregistrement d'un épisode de Le Ruby Nouveau : bienvenue !
 Tout va bien se passer dans le respect, la bienveillance et la détente. 
-Pour que chacun-e sache où on va, voici comment ça devrait se passer.
+Pour que chacun-e sache où on va, voici comment ça devrait se passer._
+
+N'hésitez pas à lire les autres fichiers du dépôt sur : la qualité audio, nos idées, les sujets d'épisode... 
+Allez, prenez un verre d'eau, passez aux toilettes, asseyez-vous conformtablement, coupez les notifications, mettez votre casque audio et... on y va !
 
 ## PRE CALL (~30mn)
 _Cette partie n'est pas enregistrée, elle prend environ une demi-heure, pour faire connaissance et préparer l'épisode._
@@ -23,34 +25,35 @@ _Cette partie n'est pas enregistrée, elle prend environ une demi-heure, pour fa
   Si on sent que ça peut déjà prendre des heures, on essaie de découper et peut-être prévoir d'autres épisodes.
 
 ## ENREGISTREMENT
-_Cette partie est enregistrée en direct. On a le droit de supprimer des parties si on se rate._
+_Cette partie est enregistrée en direct._
 _On essaie quand même de se donner le moins de modifications à reprendre ensuite (post-prod)._
 
-### 2mn d'intro
+On a le droit de supprimer des parties si on se rate.
+Le mieux est de dire "OK désolé, on reprend", et refaire la phrase entière.
 
-  15s	pitch musical
-  	  à voir si on peut le mixer après ou avant, je sais faire avec GarageBand si ZenCastr nous laisse DL l'audio
-  15s	pitch podcast
-	  ("Le Ruby Nouveau, podcast francophone sur la tech en général, le Web et Ruby en particulier" ?)
-  1mn	pitch des voix
-  	  on liste les panelists et invité-e-s qui disent bonjour pour identifier les voix
-  30s	pitch épisode
-  	  on parle du ou des sujets qui nous plaisent
+### 2mn d'intro
+_L'hôte présente le podcast et nomme les participant-e-s et invité-e-s, qui disent bonjour pour identifier les voix._
 
 ### 2mn de news
-  1~5mn	 news et actus
-  	 si on a des annonces sur le podcast, les meetups, les confs, les actus et gems du moment
+_Si on a des annonces sur le podcast, les meetups, les confs, les actus et gems du moment._
 
-### Sujet de l'épisode
-  10~40mn sujets de l'épisode
-  	 on déroule les sujets de la liste établie en pre-call, on échange, on clarifie
+### 10~40mn d'épisode
+_On déroule les sujets de la liste établie en pre-call, on échange, on clarifie, on discute._
 
-### 5mn de picks
-    on remercie l'invité-e et on demande ce que peuvent faire les auditeurs pour suivre le sujet (twitter, blog...)
-    picks de l'invité-e : il faut choisir 1 à 3 trucs cool à partager, sur le sujet de l'épisode ou non
-    si l'invité-e est trop modeste, les panelists ont le droit de rappeler des points qui dénotent :)
+Si on parle de quelque chose qui n'est pas évident/connu, on essaie placer une explication rapide. 
+Si on pense partir dans une discussion trop longue et hors sujet, proposer un autre épisode ?
 
-    picks des panelists > les panelists choisissent 0 à 2 trucs cool chacun
+### Clôture du podcast
+_On peut demander que faire pour en savoir plus (follow l'invité-e, etc), ce qu'on a retenu..._
+
+### 5mn de découvertes
+_C'est le moment de partager rapidement des choses intéressantes qu'on veut partager.
+Technique ou non, un contenu (article, vidéo, mais aussi livre, musique ou film !),
+une découverte culinaire ou géographique (oui, vous pouvez parler de vos vacances)._
+
+Surprises de l'invité-e : choisissez 1 à 3 friandises, sur le sujet de l'épisode ou non.
+Si l'invité-e est trop modeste, les panelists ont le droit de rappeler des points qui dénotent :)
+Friandises des habitué-e-s : 0 à 2 surprises chacun-e.
 
 ### 1mn de clôture
-  30~60s merci, au-revoir et musique
+_L'hôte remercie tout le monde, dit au revoir, et chacun-e des participant-e-s dit au revoir_
