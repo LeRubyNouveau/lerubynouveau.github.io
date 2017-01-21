@@ -1,31 +1,51 @@
 # EPISODES
-Idées de sujets
+Voici nos idées de sujets. N'hésitez pas à en suggérer !
 
 ## Sujets de fond
-* Pourquoi Ruby en 2017
 * Santé, introversion, santé mentale, burnout
 * Politique, lois, syndicats, LPM & OIV
+* Inclusion, handicap, accessibilité
+* BOOK CLUB : lire des livres ensemble et les commenter
+* CRITIQUE : articles, conférences, présentations exceptionnelles à commenter
+  - Sandi Metz "Nothing is something", "The wrong abstraction"
+
+## Technique "général"
+* Architecture
+* MVC, ORM
+* Performance
+* LessCode
+* State Machines
+* La dépendance aux gems, comment choisir un gem
+* Sécurité
 
 ## Sujets Rails
-* Architecture
-* MVC
 * Stratégie de version pour tout / Traceability
 * Import export
 * Scopes
 * Horreurs de code
+* Tests : que tester, comment tester 
+* Stack Rails (asset pipeline, turbolinks, I18N)
 
 ## Outils
-* Ruby sans Web : ops, système, calculs, applis lourdes
+* Ops : puppet, chef, ansible...
+* Ruby sans Web : système, calculs, applis lourdes, outils Unix
 * Ruby + Web sans Rails : Sinatra, Trailblazer, Hanami
 * Alternatives et technos que les rubyistes aiment : Elixir, Rust, Go, Haskell
 * Front etc : Angular, React, OPAL, ... ?
+* Embarqué ou mobile : RubyMotion, Arduino, Raspberry Pi, emruby
 * Comparaison avec Django
 * Outils de tous les jours (Unix, SQL)
 * Outils de code non code
 * Outils de debug
+* Data Science
 
 ## Éducation
-* Comment apprendre, comment se lancer, comment progresser
+* Apprendre : comment apprendre, comment se lancer, comment progresser
+* Enseigner : comment former, partager, mentorer, encadrer
+* Cursus : écoles, diplômes, autodidactes
+* Veille technologique et "information diet" (consommation média)
+
+
 
 ## Carrière
 * rentrer dans les métiers du Web, juniors devs
@@ -49,5 +69,4 @@ Idées de sujets
   - Maghreb, Afrique
   - Canada (Québec, Montréal)
   - Expats en pays non francophones : Londres, Berlin, Vienne, Nouvelle-Zélande...
-
 
