@@ -70,13 +70,7 @@ Bonus post-épisode :
 
 ### Découvertes
 
-- Franzé : Rails Performance - à lire et commenter ensemble
+- Franzé : Rails Performance
 - Sonia : Udemy
 - Michel : Mindstorms, de Seymour Papert (inventeur de LOGO) - pour l'apprentissage, la pratique, l'innovation...
 - Sylvain : thecodelesscode.com - énigmes "Zen" sur le code, pour se poser des questions plutôt qu'y répondre
-
-### Clôture
-
-C'est la fin de cet épisode. N'hésitez pas à le partager dans vos communautés et de nous laisser vos impressions, commentaires, remarques et précisions dans le billet associé à l'épisode sur notre site : [lerubynouveau.fr](http://lerubynouveau.fr), ou sur twitter [@LeRubyNouveau](https://www.twitter.com/LeRubyNouveau). Un grand merci à nos participants et à bientôt.
-
-## LIENS
