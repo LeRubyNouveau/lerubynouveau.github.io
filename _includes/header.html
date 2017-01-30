@@ -1,0 +1,14 @@
+<div class="page" id="title">
+  <h1><a href="/"><span class="txt">Hi, I'm </span>Sylvain Abélard</a></h1>
+  <div class="menu">
+    <a {% if page.categories contains 'Talks' %}class="active"{% endif %} href="/talks/">Talks</a>
+    <a {% if page.categories contains 'Blog' or site.related_posts %}class="active"{% endif %} href="/blog/">Blog</a>
+    <a {% if page.categories contains 'Koans' or page.Number %}class="active"{% endif %} href="/koans/">Koans</a>
+    <a {% if page.categories contains 'Projs' %}class="active"{% endif %} href="/projects/">Projs</a>
+    <a href="http://zenm4.net">ZenM4</a>
+  </div>
+  {% if page.layout == 'projects' %}{% include projects.html %}{% endif %}
+  {% if page.layout == 'posts'    %}{% include blog.html     %}{% endif %}
+  {% if page.layout == 'koans_fr' %}{% include koans_fr.html %}{% endif %}
+  {% if page.layout == 'koans'    %}{% include koans.html    %}{% endif %}
+</div>

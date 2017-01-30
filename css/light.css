@@ -1,0 +1,18 @@
+body { font-family: 'Della Respira', serif; }
+body { background: #F8E3D1; color: #9B5725; }
+
+h1, h2, h3 { font-family: 'Amarante', cursive; text-align: center; }         
+h3 { display: inline; }
+a h3 { color: #995522; }
+
+.content { width: 90%; min-width: 320px; margin: auto; }
+.menu { text-align: center; }
+
+.glass { font-family: 'Glass Antiqua', cursive; font-weight: normal; }
+.footer, .info { font-size: 90%; font-style: italic; }
+.footer { text-align: right; border-top: 1px solid #9B5725; margin-top: 2em; }
+hr { width: 75%; border: 1px inset #9B5725; }
+
+a:visited { color: #660000; }
+a:hover { color: #C88D41; }
+a { color: #440000; }

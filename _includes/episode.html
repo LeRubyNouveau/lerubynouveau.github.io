@@ -1,0 +1,7 @@
+  <h2>{{ episode.name }}</h2>
+  <p>
+
+  </p>
+  <ul>{% for link in episode.links %}
+      <li><a href="http://{{ link.value }}>{{ link.key }}</a></li>
+  {% endfor %}</ul>

@@ -1,6 +1,5 @@
 ---
 layout: null
-soundcloud_rss: http://feeds.soundcloud.com/users/soundcloud:users:197383866/sounds.rss
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -11,39 +10,37 @@ soundcloud_rss: http://feeds.soundcloud.com/users/soundcloud:users:197383866/sou
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <language>fr-fr</language>
     <copyright>&#169; {{ site.author | xml_escape }}</copyright>
-    <itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
+    <itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
     <itunes:author>{{ site.author | xml_escape }}</itunes:author>
-    <itunes:summary>{{ site.summary | xml_escape }}</itunes:summary>
+    <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
     <itunes:owner>
       <itunes:name>{{ site.author | xml_escape }}</itunes:name>
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="http://zenm4.net/img/zenm4_big.jpg" />
+    <itunes:image href="http://lerubynouveau.fr/img/madame_rubis_500.png" />
     <itunes:category text="Technology" />
     <itunes:explicit>no</itunes:explicit>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:42 %}{% for episode in site.data.episodes %}{% if episode.n == post.n %}{% assign ep = episode %}{% endif %}{% endfor %}
+    {% for ep in site.episodes reversed limit:42 %}
       <item>
-        <title>{{ ep.titre | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <title>{{ ep.number }}. {{ ep.title | xml_escape }}</title>
+        <description>{{ ep.title | xml_escape }} - {{ ep.tagline | xml_escape }}</description>
 	<itunes:author>{{ site.author | xml_escape }}</itunes:author>
 	<itunes:subtitle>
-	  {% if ep.like == '' %}{{ ep.thing | xml_escape }}{% else %}{{ ep.thing | xml_escape }} c'est comme {{ ep.like | xml_escape }}{% endif %}
+	  {{ ep.tagline }}
 	</itunes:subtitle>
 	<itunes:summary>
-	  {% if ep.like == '' %}{{ ep.thing | xml_escape }}{% else %}{{ ep.thing | xml_escape }} c'est comme {{ ep.like | xml_escape }}{% endif %}
+	  {{ ep.summary }}
 	</itunes:summary>
-	<itunes:image href="http://zenm4.net/img/{{ ep.img }}.png" />
+	<itunes:image href="http://lerubynouveau.fr/img/madame_rubis_500.png" />
 	<enclosure url="{{ ep.mp3 }}" length="{{ ep.s }}00" type="audio/mp4" />
 	<itunes:duration>{{ ep.d }}</itunes:duration>
-
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}<category>{{ tag | xml_escape }}</category>{% endfor %}
-        {% for cat in post.categories %}<category>{{ cat | xml_escape }}</category>{% endfor %}
+        <pubDate>{{ ep.date | date_to_rfc822 }}</pubDate>
+        <link>{{ ep.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ ep.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in ep.tags %}<category>{{ tag | xml_escape }}</category>{% endfor %}
       </item>
     {% endfor %}
   </channel>
