@@ -38,5 +38,13 @@ gems:
   - jekyll-coffeescript
   - jekyll-paginate
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - Procfile
+  - README.md
+  - config.ru
+  - documentation
+  - idées.md
+  - notes_des_episodes
+  - vendor
