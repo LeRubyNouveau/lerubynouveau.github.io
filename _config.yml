@@ -1,0 +1,50 @@
+title: Le Ruby Nouveau
+email: bonjour@lerubynouveau.fr
+author: Les Rubyistes
+description: >
+  Le Ruby Nouveau est un podcast francophone sur la tech en général, le Web et Ruby en particulier.
+baseurl: ""
+url: "http://lerubynouveau.fr"
+twitter_username: lerubynouveau
+github_username:  lerubynouveau
+
+collections:
+ habitues:
+  output: true
+  permalink: /habitues/:path
+  values:
+    layout: habitue
+ episodes:
+  output: true
+  permalink: :title:output_ext
+  values:
+    layout: episode
+
+github: [metadata]
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-coffeescript
+  - jekyll-paginate
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Procfile
+  - README.md
+  - config.ru
+  - documentation
+  - idées.md
+  - notes_des_episodes
+  - vendor

@@ -1,0 +1,42 @@
+---
+layout: posts
+---
+<div class="post">
+
+  <header class="post-header">
+    <p class="post-meta">
+      {% if page.previous %}
+    <span>&#x21fd; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
+    {% endif %}
+    &mdash;{% comment %}
+      {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+   &mdash;{% endcomment %}
+    {% if page.next %}
+    <span><a href="{{ page.next.url }}">{{ page.next.title }}</a> &#x21fe;</span>
+    {% endif %}
+    </p>
+    <h1 class="post-title" title="{{ page.topics | join:', ' }}">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <footer class="post-footer">
+
+    You might want to read these related posts:
+    <ul class="related-list">{% for post in site.posts %}
+      {% assign related = post.topics | intersection: page.topics %}
+      {% if related %} {% if post.title != page.title %}
+      <li>
+	<span class="related-meta">{{ post.topics }}
+	  {% comment %}{{ post.date | date: "%b %-d, %Y" }}{% endcomment %}
+	</span>
+	<h4>
+	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</h4>
+      </li>
+  {% endif %}{% endif %}{% endfor %}</ul>
+  </footer>
+
+</div>

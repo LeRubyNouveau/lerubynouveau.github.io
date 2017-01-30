@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% for episode in site.episodes reversed %}<a href="/{{episode.number}}.html">
+  <h2>{{ episode.number }}. {{ episode.title }}</h2></a>
+  <p>
+  {% for host in episode.hosts %} {{ host }} {% endfor %}
+  <br /><em>{{ episode.tagline }}</em>
+  </p>
+{% endfor %}

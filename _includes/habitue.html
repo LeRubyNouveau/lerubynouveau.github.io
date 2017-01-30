@@ -1,0 +1,8 @@
+  <h2>{{ habitue.name }}</h2>
+  <p>
+    <a href="https://twitter.com/{{ habitue.twitter }}">@{{ habitue.twitter }}</a>
+    <a href="http://{{ habitue.website }}">{{ habitue.website }}</a>
+  </p>
+  <ul>{% for link in habitue.links %}
+      <li><a href="http://{{ link.value }}>{{ link.key }}</a></li>
+  {% endfor %}</ul>
