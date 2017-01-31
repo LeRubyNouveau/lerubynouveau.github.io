@@ -1,12 +1,13 @@
 ---
 layout: habitue
 name: Sonia Prevost
-website: 
+website:
+username: wondersonja
 twitter: wondersonja
 zone: Paris, France
-github: 
-pitch: 
-photo: 
-desc: 
+github:
+pitch:
+photo:
+desc:
 links:
 ---

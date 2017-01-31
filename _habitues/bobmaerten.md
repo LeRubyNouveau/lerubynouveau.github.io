@@ -3,12 +3,13 @@ layout: habitue
 name: Bob Maerten
 website: bobmaerten.eu
 twitter: bobmaerten
+username: bobmaerten
 zone: Valenciennes, France
 github: bobmaerten
 pitch: En rémission de la fonction publique
 photo: https://bobmaerten.eu/images/avatar2014-23be5c26.jpg
-desc: Résolvons des problèmes intéressants pour nous faciliter la vie. Testons pour nous améliorer.
+desc: Ancien sysadmin, tombé dans le dev depuis. Esprit DevOps en sommes.
 links:
-  LevelUpSolutions: levups.com
-  DevAndTalkVA: www.meetup.com/fr-FR/dev-and-talk-valenciennes/
+  "Level Up Solutions": "https://levups.com"
+  "Dev and Talk VA": "https://www.meetup.com/fr-FR/dev-and-talk-valenciennes/"
 ---
