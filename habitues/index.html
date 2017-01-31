@@ -2,7 +2,7 @@
 layout: default
 ---
 <ul>{% for habitue in site.habitues reversed %}<li>
-  <a href="/habitues/{{habitue.twitter}}"><h3>{{ habitue.name }}</h3></a>
+    <a href="/habitues/{{ habitue.username }}"><h3>{{ habitue.name }}</h3></a>
   - <a href="https://twitter.com/{{ habitue.twitter }}">@{{ habitue.twitter }}</a>
   - <a href="http://{{ habitue.website }}">{{ habitue.website }}</a>
 </li>{% endfor %}</ul>

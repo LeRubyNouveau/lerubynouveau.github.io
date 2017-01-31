@@ -1,12 +1,13 @@
 ---
 layout: habitue
 name: Agathe Begault
-website: 
+website:
 twitter: gayahel
+username: gayahel
 zone: Paris, France
-github: 
-pitch: 
-photo: 
-desc: 
+github:
+pitch:
+photo:
+desc:
 links:
 ---
