@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Bob Maerten
-website: bobmaerten.eu
+website: https://bobmaerten.eu
 twitter: bobmaerten
 username: bobmaerten
 zone: Valenciennes, France

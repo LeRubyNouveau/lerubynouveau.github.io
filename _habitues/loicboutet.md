@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Loïc Boutet
-website: hexagonalconsulting.com
+website: http://hexagonalconsulting.com
 twitter: loicboutet
 username: loicboutet
 zone: Chartres, France

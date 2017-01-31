@@ -17,6 +17,8 @@ layout: default
 
 <hr />
 
+<div id="transcript">
+
 <h2>Actus</h2>
 
 <ul>{% for my_actu in page.actus %}{% assign actu = my_actu[1] %}<li>
@@ -37,3 +39,4 @@ layout: default
   {{ pick.comment }} -- {{ pick.panelist }}
 </li>{% endfor %}</ul>
 
+</div>

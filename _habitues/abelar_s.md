@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Sylvain Abélard
-website: maitre-du-monde.fr
+website: http://maitre-du-monde.fr
 twitter: abelar_s
 username: abelar_s
 zone: Paris, France

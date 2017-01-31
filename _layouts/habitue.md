@@ -7,7 +7,8 @@ layout: default
 </p>
 <p>
   {{ page.zone }}
-  — <a href="http://{{ page.website }}">{{ page.website }}</a>
+  {% if page.website %}— <a href="{{ page.website }}">{{ page.website }}</a>{% endif %}
+
   — <a href="https://twitter.com/@{{ page.twitter }}">@{{ page.twitter }}</a>
 </p>
 

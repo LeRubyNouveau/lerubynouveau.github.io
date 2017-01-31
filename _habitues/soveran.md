@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Michel Martens
-website: soveran.com
+website: http://soveran.com
 twitter: soveran
 username: soveran
 zone: Paris, France

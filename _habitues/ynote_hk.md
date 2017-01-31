@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Fanny Heung
-website: ynote.hk
+website: http://ynote.hk
 username: ynote_hk
 twitter: ynote_hk
 zone: Paris, France
