@@ -6,7 +6,10 @@ h3 { display: inline; }
 a h3 { color: #995522; }
 
 .content { width: 90%; min-width: 320px; margin: auto; }
-.menu { text-align: center; }
+.menu, .episode { text-align: center; }
+
+.audiojs { margin: auto; width: 290px; }
+.audiojs .scrubber { width: 120px; }
 
 .glass { font-family: 'Glass Antiqua', cursive; font-weight: normal; }
 .footer, .info { font-size: 90%; font-style: italic; }
