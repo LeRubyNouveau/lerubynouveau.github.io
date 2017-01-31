@@ -1,19 +1,10 @@
 ---
 layout: default
 ---
-<div class="episode">
-  <h1>{{ page.number }}. {{ page.title }}</h1>
-  <em>{{ page.tagline }}</em><br />
-  <p>À la table{% for host in page.hosts %}, <a href="/habitues/{{ host }}.html">{{ host }}</a>{% endfor %}.</p>
-
-  <script src="/audiojs/audio.min.js"></script>
-  <script>
-    audiojs.events.ready(function() {
-      var as = audiojs.createAll();
-    });
-  </script>
-  <audio src="{{ page.mp3 }}"></audio>
-</div>
+<h1>{{ page.number }}. {{ page.title }}</h1>
+<em>{{ page.tagline }}</em><br />
+<p>À la table{% for host in page.hosts %}, <a href="/habitues/{{ host }}.html">{{ host }}</a>{% endfor %}.</p>
+<audio src="{{ page.asset_link }}"></audio>
 
 <hr />
 
