@@ -1,20 +1,33 @@
-body { font-family: 'Della Respira', serif; }
-body { background: #F8E3D1; color: #9B5725; }
+body {
+  font-family: 'Della Respira', serif;
+  background: #F8E3D1;
+  text-align: center;
+  color: #9B5725;
+}
 
-h1, h2, h3 { font-family: 'Amarante', cursive; text-align: center; }         
+h1, h2, h3 { font-family: 'Amarante', cursive; }
 h3 { display: inline; }
 a h3 { color: #995522; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline;; }
 
 .content { width: 90%; min-width: 320px; margin: auto; }
-.menu, .episode { text-align: center; }
+.menu a { text-decoration: underline; }
+#transcript, ul { text-align: left; }
 
-.audiojs { margin: auto; width: 290px; }
+.audiojs, #wrapper { margin: auto; width: 290px; }
 .audiojs .scrubber { width: 120px; }
+
+.playlist { margin: 0 0 0 2em; padding: 0; }
+.playlist li { text-align: left; padding: 0.5em; }
 
 .glass { font-family: 'Glass Antiqua', cursive; font-weight: normal; }
 .footer, .info { font-size: 90%; font-style: italic; }
 .footer { text-align: right; border-top: 1px solid #9B5725; margin-top: 2em; }
 hr { width: 75%; border: 1px inset #9B5725; }
+
+h1 a, .playlist a { text-decoration: none; }
+.nm { margin: 0; }
 
 a:visited { color: #660000; }
 a:hover { color: #C88D41; }

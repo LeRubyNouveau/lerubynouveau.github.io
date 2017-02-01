@@ -1,0 +1,18 @@
+    <div id="wrapper">
+      <h3>Épisodes</h3>
+      <audio preload></audio>
+      <ol class="playlist">{% for ep in site.episodes reversed %}
+        <li><a href="#" data-src="{{ ep.mp3 }}">{{ ep.number }}. {{ ep.title }}</a></li>
+      {% endfor %}</ol>
+    </div>
+    <div id="shortcuts">
+      <p class="info">
+        <em>Raccourcis : </em>
+&nbsp;
+        <code>&rarr;</code> Suivant
+&nbsp;&nbsp;&nbsp;
+        <code>&larr;</code> Précédent
+&nbsp;&nbsp;&nbsp;
+        <em>Esp.</em> Lire / pause
+      </div>
+    </div>

@@ -1,36 +1,37 @@
 ---
 layout: episode
-number: "000"
-title: "Qu'est-ce que c'est ?"
-tagline: "Bienvenue à notre table ! Qu'y a-t-il au menu ?"
-img: ""
+number: 000
+title: Titre
+tagline: Une ligne de description
+summary: Un détail qui apparaîtra dans le RSS
+img: http://lerubynouveau.fr/img/madame_rubis_500.png
 tags: [LeRubyNouveau, Bienvenue]
-duration: "TIME:CODE:LENGTH"
-length: "FILE_BYTES"
-asset_link: ".mp3"
-link: "soundcloud.com/truc"
+mp3: http://lerubynouveau.fr/mp3/le_ruby_nouveau_00x_titre_invitee.mp3
+s: 601
+d: "10:01"
 hosts:
-   olivier:
-   agathe:
-   sylvain:
+  nick:
+  handle:
 actus:
   nouvelle:
-   title:
-   link:
-   comment:
+   title: Actu 1
+   link: URL
+   comment: Commentaire
   aventure:
-   title:
-   link:
-   comment:
+   title: Actu 2
+   link: URL
+   comment: Détail
 picks:
   pick1:
-   panelist:
-   title:
-   link:
-   comment:
+   panelist: nick
+   title: Friandise
+   link: URL
+   comment: Délicieuse
   pick2:
-   panelist:
-   title:
-   link:
-   comment: 
+   panelist: handle
+   title: Gourmandise
+   link: URL
+   comment: Formidable
 ---
+
+Transcription des points majeurs de l'épisode.

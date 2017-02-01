@@ -1,10 +1,12 @@
 ---
 layout: default
+playlist: true
 ---
+{% include playlist.html %}
+
 {% for episode in site.episodes reversed %}<a href="/{{episode.number}}.html">
-  <h2>{{ episode.number }}. {{ episode.title }}</h2></a>
-  <p>
-  {% for host in episode.hosts %} {{ host }} {% endfor %}
-  <br /><em>{{ episode.tagline }}</em>
-  </p>
+  <h2 class="nm">{{ episode.number }}. {{ episode.title }}</h2></a>
+  {{ episode.tagline }}
+  <p class="info nm">avec {% for host in episode.hosts %}{{ host }}, {% endfor %}</p>
+  <br />
 {% endfor %}

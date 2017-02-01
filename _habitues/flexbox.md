@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: David Leuliette
-website: davidl.fr
+website: http://davidl.fr
 twitter: _flexbox
 username: flexbox
 zone: Lille, France

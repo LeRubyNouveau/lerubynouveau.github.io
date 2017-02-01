@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Christophe Philemotte
-website: ibakesoftware.com
+website: http://ibakesoftware.com
 username: toch
 twitter: _toch
 zone: Bruxelles, Belgique

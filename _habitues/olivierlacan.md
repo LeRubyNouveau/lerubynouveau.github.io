@@ -1,7 +1,7 @@
 ---
 layout: habitue
 name: Olivier Lacan
-website: olivierlacan.com
+website: http://olivierlacan.com
 twitter: olivierlacan
 username: olivierlacan
 zone: Paris, France & Orlando, Floride, USA
