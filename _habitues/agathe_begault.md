@@ -10,6 +10,6 @@ pitch: La vie est une succession d'expériences. Donnons nous les moyens de les 
 photo: https://pbs.twimg.com/profile_images/826568210245877760/ZE4_YsVT_400x400.jpg
 desc:
 links:
-  RailsGirlsParis: railsgirls.org/paris
-  WomenOnRails: womenonrails.com
+  RailsGirlsParis: http://railsgirls.com/paris
+  WomenOnRails: http://www.womenonrails.com/
 ---
